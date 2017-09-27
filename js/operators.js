@@ -1,5 +1,6 @@
 var name = prompt("What is your name?", "John Smith");
 
+function myFunction(){
 var color = prompt("What's your favorite color? Type either: Red, Yellow, Blue, Green, White, Black, Purple, Pink, Orange, or Brown");
 
 if (color === "Red" || color === "red" ) {
@@ -54,5 +55,9 @@ else if (color === "Brown" || color === "brown") {
 
 else {
   alert("Not a valid answer, " + name);
+  myFunction();
+
   // continue;
 }
+}
+myFunction();
